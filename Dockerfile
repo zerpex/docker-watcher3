@@ -1,7 +1,7 @@
 FROM python:alpine
 
 RUN apk --no-cache add zip curl && \
-    wget https://github.com/nosmokingbandit/Watcher3/archive/master.zip && \
+    wget https://github.com/barbequesauce/Watcher3/archive/master.zip && \
     unzip master.zip && \
     mv /Watcher3-master /watcher3
 
